@@ -19,7 +19,6 @@ class Main {
         String inputString = myObj.nextLine();
         String[] numbers = inputString.split("\\s");
         try {
-
             if (!isNumeric(numbers[0]) && !isNumeric(numbers[2])) {
                 String res = Roman.romanCalc(numbers);
                 System.out.println(res);

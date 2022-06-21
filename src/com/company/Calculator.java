@@ -3,11 +3,11 @@ package com.company;
 public class Calculator {
 
     public static boolean checkRange(String num) {
-        if (Integer.parseInt(num) <= 10 && Integer.parseInt(num) > 0){
-            return true;
-        }else{
-            return false;
-        }
+            if (Integer.parseInt(num) <= 100000 && Integer.parseInt(num) > 0) {
+                return true;
+            } else {
+                return false;
+            }
     }
 
     public static int calculate(String[] numbers) {
